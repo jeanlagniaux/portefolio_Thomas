@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', Ubuntu, sans-serif;
+    color: white;
+}
+
+body {
+    list-style: none;
+    background-color: black !important;
+}
+
+.container {
+    width: 60%;
+    margin: 2rem auto;
+}
+
+a {
+    text-decoration: none;
+}
