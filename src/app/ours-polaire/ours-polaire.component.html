@@ -6,14 +6,37 @@
             </iframe>
         </div>
     </div>
-    <div>
+    <div class="description-container">
+        <p> <span class="description-title">Titre :</span> Ours Polaire</p>
+        <p> <span class="description-title">Réalisateur :</span> Xxxx Xxxxxxxx</p>
+        <p> <span class="description-title">Chef Opérateur :</span> Xxxx Xxxxxxxx</p>
+        <p> <span class="description-title">Caméras :</span> Xxxxxxxx</p>
+
+
+    </div>
+    <div class="img-container">
         <img class="thumb_img" src="{{ src }}" alt="">
     </div>
+
 </div>
 
 <style>
     .article-container {
         width: 98%;
         margin: 1rem auto;
+    }
+    
+    .description-container {
+        border: 1px solid red;
+        width: 50%;
+        margin: 2rem auto 1rem auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+    
+    .description-title {
+        font-weight: 600;
     }
 </style>
