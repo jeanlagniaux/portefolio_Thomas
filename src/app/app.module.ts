@@ -5,12 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { OursPolaireComponent } from './ours-polaire/ours-polaire.component';
+import { SafePipe } from './safe.pipe';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    OursPolaireComponent
+    OursPolaireComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,
